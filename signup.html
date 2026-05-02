@@ -5,12 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sign Up Page</title>
 <link rel="stylesheet" href="style.css">
-<link rel="icon" type="image/x-icon" href="logo.png">
+
+<!-- Favicon  -->
+<link rel="icon" type="image/x-icon" href="image/logo.png">
 </head>
 
 <body>
 
-<!-- OUTER CONTAINER -->
+<!-- OUTER CONTAINER (FULL SCREEN) -->
 <div class="outer-container">
 
     <!-- INNER CONTAINER -->
@@ -18,7 +20,7 @@
 
         <!-- LEFT SIDE -->
         <div class="left">
-            <img src="background.png" alt="Image">
+            <img src="image/background.png" alt="Image">
         </div>
 
         <!-- RIGHT SIDE -->
@@ -28,10 +30,10 @@
             <p>Create your account</p>
 
             <form>
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Confirm Password" required>
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
                 <button type="submit">Sign Up</button>
             </form>
 
